@@ -1,10 +1,10 @@
-# Serverless Web Application on AWS
+# AWS-Serverless_Web_Application
 
 ## Project Name: Serverless Web Application on AWS
 
 ### Project Description:
 
-In this project, you will build a serverless web application using AWS Lambda, DynamoDB, and S3. The application will allow users to create, read, update, and delete (CRUD) items from a DynamoDB table.
+In this project, I build a serverless web application using AWS Lambda, DynamoDB, and S3. The application will allow users to create, read, update, and delete (CRUD) items from a DynamoDB table.
 
 ### Project Architecture:
 
@@ -12,28 +12,21 @@ In this project, you will build a serverless web application using AWS Lambda, D
 
 ### Steps to Build the Project:
 
-* Create a DynamoDB table to store the items. \
-* Build a Lambda function to handle the CRUD operations on the DynamoDB table. \
-* Use S3 to store and host the web application's static files (HTML, CSS, and JavaScript). \
-* Create a CloudFront distribution to serve the S3-hosted static files with low latency. \
+* Create a DynamoDB table to store the items. 
+* Build a Lambda function to handle the CRUD operations on the DynamoDB table.
+* Use S3 to store and host the web application's static files (HTML, CSS, and JavaScript).
+* Create a CloudFront distribution to serve the S3-hosted static files with low latency. 
 
-### Expected Outcome:
+###Outcome:
 
-Upon completing the project, you will have a working serverless web application hosted on AWS. \
-You will have hands-on experience building a serverless application using AWS Lambda, DynamoDB, S3, CloudFront. \
-Additionally, you will have experience working with AWS services and integrating them to build a complete solution.
+Upon completing the project, I had a working serverless web application hosted on AWS.
+I had hands-on experience building a serverless application using AWS Lambda, DynamoDB, S3, CloudFront as well as experience working with AWS services and integrating them to build a complete solution.
 
-This project will help you improve your skills in cloud computing, serverless architecture, and AWS services.
-
-Link to the documentation: https://docs.google.com/document/d/1FKIs7_yF0D98dHC1D-_pE494EiNF5xhP3s7YCRzw3B8/edit?usp=sharing. 
+This project helped me to improve my skills in cloud computing, serverless architecture, and AWS services.
 
 
 
-Follow our tutorials here: https://www.youtube.com/@amonkincloud/videos \
-Follow our blog here: https://amonkincloud.com/ \
-Follow my personal blog here:https://dev.to/yeshwanthlm/ \
-Follow us on Instagram: https://www.instagram.com/amonkincloud/ \
-For queries write to us at: amonkincloud@gmail.com 
+
 
 
 
