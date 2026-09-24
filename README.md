@@ -7,7 +7,6 @@ Built a serverless CRUD web application on AWS that allows users to create, read
 
 ### Project Architecture:
 
-**User → CloudFront → S3 → API Gateway → Lambda → DynamoDB**
 ![Serverless Web Application on AWS Architecture](https://user-images.githubusercontent.com/66474973/228492073-5cd3d975-3439-4ce4-b109-fb33997df3c3.png)
 
 ### AWS Services Used
