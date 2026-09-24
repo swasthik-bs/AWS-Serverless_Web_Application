@@ -1,28 +1,40 @@
-# AWS-Serverless_Web_Application
 
-## Project Name: Serverless Web Application on AWS
+# AWS Serverless Web Application
 
-### Project Description:
+### Project Overview
 
-In this project, I built a serverless web application using AWS Lambda, DynamoDB, and S3. The application will allow users to create, read, update, and delete (CRUD) items from a DynamoDB table.
+Built a serverless CRUD web application on AWS that allows users to create, read, update, and delete items stored in Amazon DynamoDB.
 
 ### Project Architecture:
 
+**User → CloudFront → S3 → API Gateway → Lambda → DynamoDB**
 ![Serverless Web Application on AWS Architecture](https://user-images.githubusercontent.com/66474973/228492073-5cd3d975-3439-4ce4-b109-fb33997df3c3.png)
 
-### Steps I have implemented
+### AWS Services Used
 
-* Create a DynamoDB table to store the items. 
-* Build a Lambda function to handle the CRUD operations on the DynamoDB table.
-* Use S3 to store and host the web application's static files (HTML, CSS, and JavaScript).
-* Create a CloudFront distribution to serve the S3-hosted static files with low latency. 
+* **Amazon S3** — Hosted the application's static HTML, CSS, and JavaScript files.
+* **Amazon CloudFront** — Delivered the frontend globally with low latency through a CDN.
+* **Amazon API Gateway** — Exposed REST API endpoints for the frontend to communicate with the backend.
+* **AWS Lambda** — Implemented the backend CRUD logic without managing servers.
+* **Amazon DynamoDB** — Stored application data using a serverless NoSQL database.
+* **AWS IAM** — Managed permissions between Lambda and other AWS resources.
+* **Amazon CloudWatch** — Used for Lambda logging and monitoring.
 
-###Outcome:
+### Implementation
 
-Upon completing the project, I had a working serverless web application hosted on AWS.
-I had hands on experience building a serverless application using AWS Lambda, DynamoDB, S3, CloudFront as well as experience working with AWS services and integrating them to build a complete solution.
+1. Created a DynamoDB table to store application data.
+2. Developed a Lambda function to perform CRUD operations on DynamoDB.
+3. Created API Gateway endpoints to invoke the Lambda function.
+4. Built a static frontend using HTML, CSS, and JavaScript.
+5. Hosted the frontend files in Amazon S3.
+6. Configured CloudFront to distribute the frontend with lower latency.
+7. Configured IAM permissions for secure access between AWS services.
+8. Used CloudWatch logs to monitor and troubleshoot Lambda execution.
 
-This project helped me to improve my skills in cloud computing, serverless architecture, and AWS services.
+### Outcome
+
+Successfully deployed a serverless web application on AWS without managing traditional servers. The project provided hands-on experience with serverless architecture, REST APIs, NoSQL databases, IAM permissions, CDN-based content delivery, and integration of multiple AWS services into a complete cloud solution.
+
 
 
 
